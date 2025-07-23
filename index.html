@@ -12,16 +12,17 @@
 <body>
 
     <!-- Hero Section -->
-    <section class="w-full h-screen flex items-center justify-center">
-        <div class="w-[430px] h-[100%] bg-gradient-to-b from-blue-100 flex flex-col items-center overflow-hidden relative">
+    <section class="w-full flex items-center justify-center">
+        <div class="w-[430px] min-h-screen bg-gradient-to-b flex flex-col items-center overflow-y-auto relative  pb-[5rem]">
 
-            <div class="flex justify-between items-center w-[430px] fixed backdrop:blur-lg px-[1.3rem] py-[1rem] z-10">
+            <div class="flex justify-between items-center w-[430px] fixed bg-white px-[1.3rem] py-[1rem] z-10">
                 <div>
-                    <h1 class="text-xl text-orange-500 font-bold max-[400px]:pl-[2.2rem] "><a href="#">Said</a></h1>
+                    <h1 class="text-xl text-blue-950 font-bold max-[400px]:pl-[2rem] "><a href="#">S.Phone</a></h1>
                 </div>
 
                 <div class="max-[375px]:pr-6 max-[400px]:pr-4">
-                    <a href="" class="text-blue-900 rounded-full inline-flex justify-center items-center w-10 h-10 hover:text-orange-500 duration-300"><i
+                    <a href=""
+                        class="text-blue-900 rounded-full inline-flex justify-center items-center w-10 h-10 hover:text-blue-400 duration-300"><i
                             class="fa-solid fa-magnifying-glass"></i></a>
                 </div>
 
@@ -29,58 +30,70 @@
 
             <div class="flex  gap-4 max-[375px]:gap-2">
                 <div
-                    class="w-[340px] h-[300px] bg-[url('na.jpg')] bg-center bg-cover shadow-xl mt-[90px] rounded-xl translate-x-[9.35rem] max-[400px]:h-[200px] max-[400px]:w-[300px] max-[400px]:translate-x-[10.1rem]">
-
+                    class="w-[340px] h-[300px] bg-[url('iphone.jpeg')] bg-center bg-cover border border-blue-700/20 shadow-xl mt-[90px] rounded-xl translate-x-[9.35rem] max-[400px]:w-[300px] max-[400px]:translate-x-[9.9rem] overflow-hidden">
+                    <div class="w-[100%] h-[100%] bg-gradient-to-t from-blue-900 flex flex-col justify-end p-4">
+                        <h1 class="font-bold text-2xl text-white opacity-100">Iphone 16 pro max</h1>
+                        <p class="text-white/70">Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+                    </div>
                 </div>
 
                 <div
-                    class="w-[340px] h-[300px] bg-[url('na.jpg')] bg-center bg-cover shadow-xl mt-[90px] rounded-xl translate-x-36 scale-95 max-[400px]:h-[200px] max-[400px]:translate-x-[10rem]">
-
+                    class="w-[340px] h-[300px] bg-[url('samsung.webp')] border border-blue-700/20 bg-center bg-cover shadow-xl mt-[90px] rounded-xl translate-x-36 scale-95 max-[400px]:translate-x-[10.3rem] overflow-hidden">
+                    <div class="w-[100%] h-[100%] bg-gradient-to-t from-blue-900 flex flex-col justify-end p-4">
+                        <h1 class="font-bold text-2xl text-white">Samsung S25 Ultra</h1>
+                        <p class="text-white/70">Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+                    </div>
                 </div>
 
             </div>
 
-            <div class="flex items-start w-[430px]">
+            <div class="items-start w-[430px]">
                 <h1 class="p-5 font-bold text-xl max-[400px]:pl-[3.3rem] text-blue-900">Categories</h1>
             </div>
 
-            <div class="flex items-start gap-6 w-[430px] pl-5 max-[400px]:pl-[3.3rem]">
+            <div class="flex items-start gap-4 w-[430px] pl-5 max-[400px]:pl-[3.3rem]">
                 <a href="#">
                     <h1
-                        class="bg-gray-50 border border-gray-300 px-6 py-2 rounded-full max-[400px]:px-4 max-[400px]:py-1 hover:bg-gray-100 duration-200">
-                        Cars</h1>
+                        class="bg-gray-50 border border-blue-700/10 px-6 py-2 rounded-full max-[400px]:px-4 max-[400px]:py-1 hover:bg-gray-100 duration-200">
+                        Iphone</h1>
                 </a>
                 <a href="#">
                     <h1
-                        class="bg-gray-50 border border-gray-300 px-6 py-2 rounded-full max-[400px]:px-4 max-[400px]:py-1 hover:bg-gray-100 duration-200">
-                        Phones</h1>
+                        class="bg-gray-50 border border-blue-700/10 px-6 py-2 rounded-full max-[400px]:px-4 max-[400px]:py-1 hover:bg-gray-100 duration-200">
+                        Samsung</h1>
                 </a>
                 <a href="#">
                     <h1
-                        class="bg-gray-50 border border-gray-300 px-6 py-2 rounded-full max-[400px]:px-4 max-[400px]:py-1 hover:bg-gray-100 duration-200">
-                        Macbook</h1>
+                        class="bg-gray-50 border border-blue-700/10 px-6 py-2 rounded-full max-[400px]:px-4 max-[400px]:py-1 hover:bg-gray-100 duration-200">
+                        OnePlus</h1>
                 </a>
                 <a href="#">
                     <h1
-                        class="bg-gray-50 border border-gray-300 px-6 py-2 rounded-full max-[400px]:px-4 max-[400px]:py-1 hover:bg-gray-100 duration-200">
-                        Laptop</h1>
+                        class="bg-gray-50 border border-blue-700/10 px-6 py-2 rounded-full max-[400px]:px-4 max-[400px]:py-1 hover:bg-gray-100 duration-200">
+                        Xiaomi</h1>
                 </a>
             </div>
 
-            <div class="items-start w-[430px] pl-5 pt-5 max-[400px]:pl-[3.3rem] font-bold text-xl text-blue-900">
-                <h1>New arrivals</h1>
+            <div class="items-start w-[430px]">
+                <h1 class="pl-5 pt-5 pb-5 max-[400px]:pl-[3.3rem] font-bold text-xl text-blue-900">New arrivals</h1>
             </div>
 
-            <nav class="flex justify-center gap-20 w-[430px] fixed bg-white border bottom-0 py-4 px-2">
-                <a class="text-xl"><i class="fas fa-home"></i></a>
-                <a class="text-xl"><i class="fas fa-message"></i></a>
-                <a class="text-xl"><i class="fas fa-cart-shopping"></i></a>
-                <a class="text-xl"><i class="fas fa-user"></i></a>
+            <div class="h-[320px] flex gap-2 items-center pl-[10.5rem] max-[400px]:pl-[14rem]">
+                <div class="w-[180px] h-[300px] bg-gray-50 border border-blue-700/10 rounded-lg"></div>
+                <div class="w-[180px] h-[300px] bg-gray-50 border border-blue-700/10 rounded-lg"></div>
+                <div class="w-[180px] h-[300px] bg-gray-50 border border-blue-700/10 rounded-lg"></div>
+            </div>
+
+            <nav class="flex justify-center gap-20 w-[430px] fixed bg-white border-t-[1px] bottom-0 py-4 px-2">
+                <a class="text-xl text-blue-900"><i class="fas fa-home"></i></a>
+                <a class="text-xl text-blue-900"><i class="fas fa-message"></i></a>
+                <a class="text-xl text-blue-900"><i class="fas fa-cart-shopping"></i></a>
+                <a class="text-xl text-blue-900"><i class="fas fa-user"></i></a>
             </nav>
 
         </div>
 
-        
+
     </section>
 </body>
 
